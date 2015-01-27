@@ -14,6 +14,7 @@
 		842AE1511A2470F300F59775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842AE1501A2470F300F59775 /* Images.xcassets */; };
 		842AE1541A2470F300F59775 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842AE1521A2470F300F59775 /* LaunchScreen.xib */; };
 		842AE1601A2470F300F59775 /* _048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842AE15F1A2470F300F59775 /* _048Tests.m */; };
+		843474BF1A26047700BFD6C2 /* MoveTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 843474BE1A26047700BFD6C2 /* MoveTag.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		842AE1591A2470F300F59775 /* 2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842AE15E1A2470F300F59775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842AE15F1A2470F300F59775 /* _048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _048Tests.m; sourceTree = "<group>"; };
+		843474BD1A26047700BFD6C2 /* MoveTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveTag.h; sourceTree = "<group>"; };
+		843474BE1A26047700BFD6C2 /* MoveTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveTag.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				842AE1501A2470F300F59775 /* Images.xcassets */,
 				842AE1521A2470F300F59775 /* LaunchScreen.xib */,
 				842AE1431A2470F300F59775 /* Supporting Files */,
+				843474BD1A26047700BFD6C2 /* MoveTag.h */,
+				843474BE1A26047700BFD6C2 /* MoveTag.m */,
 			);
 			path = 2048;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				842AE14C1A2470F300F59775 /* ViewController.m in Sources */,
+				843474BF1A26047700BFD6C2 /* MoveTag.m in Sources */,
 				842AE1491A2470F300F59775 /* AppDelegate.m in Sources */,
 				842AE1461A2470F300F59775 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				842AE1651A2470F300F59775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842AE1661A2470F300F59775 /* Build configuration list for PBXNativeTarget "2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				842AE1681A2470F300F59775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
